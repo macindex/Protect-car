@@ -25,10 +25,11 @@ import { FormsModule } from '@angular/forms'
 import { MatFormFieldModule } from  '@angular/material/form-field'
 import { MatInputModule } from  '@angular/material/input';
 import { ClienteReadComponent } from './components/cliente/cliente-read/cliente-read.component';
-import { ClienteReadIIComponent } from './components/cliente/cliente-read-ii/cliente-read-ii.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort'
+import { MatSortModule } from '@angular/material/sort';
+import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component'
 
 
 @NgModule({
@@ -41,7 +42,8 @@ import { MatSortModule } from '@angular/material/sort'
     ClienteCrudComponent,
     ClienteCreateComponent,
     ClienteReadComponent,
-    ClienteReadIIComponent
+    ClienteUpdateComponent,
+    ClienteDeleteComponent
   ],
   imports: [
     BrowserModule,
