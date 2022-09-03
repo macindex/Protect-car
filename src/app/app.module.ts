@@ -29,7 +29,10 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { ClienteUpdateComponent } from './components/cliente/cliente-update/cliente-update.component';
-import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component'
+import { ClienteDeleteComponent } from './components/cliente/cliente-delete/cliente-delete.component';
+import { LoginComponent } from './components/cliente/account/login/login.component';
+import { AuthenticationComponent } from './views/authentication/authentication.component';
+import { CreateAccountComponent } from './components/cliente/account/create-account/create-account.component'
 
 
 @NgModule({
@@ -43,7 +46,10 @@ import { ClienteDeleteComponent } from './components/cliente/cliente-delete/clie
     ClienteCreateComponent,
     ClienteReadComponent,
     ClienteUpdateComponent,
-    ClienteDeleteComponent
+    ClienteDeleteComponent,
+    LoginComponent,
+    AuthenticationComponent,
+    CreateAccountComponent
   ],
   imports: [
     BrowserModule,

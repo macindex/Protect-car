@@ -12,7 +12,7 @@ export class ClienteService {
     throw new Error('Method not implemented.');
   }
 
-  baseUrl = "http://localhost:3001/clientes"
+  baseUrl = "http://localhost:3000/clientes"
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
 
